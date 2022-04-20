@@ -1,38 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="This is where your description goes" />
+    <meta name="keywords" content="one, two, three" />
 
-<head>
-	<meta charset="utf-8">
-	<meta name="description" content="This is where your description goes">
-	<meta name="keywords" content="one, two, three">
+    <title>Title in the tab</title>
 
-	<title>Title in the tab</title>
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-	<!-- external CSS link -->
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
-</head>
+  <body>
+    <h1>Is this Vegetarian?</h1>
+    <label for="barcode">Enter a UPC barcode number (12 digits)</label>
+    <input type="number" id="barcode" />
+    <button type="button">Get Value</button>
 
-<body>
+    <img src="" alt="" id="product-img" />
+    <h2 id="product-name"></h2>
 
+    <table id="ingredient-table">
+      <tr>
+        <th>Ingredient</th>
+        <th>Vegetarian?</th>
+      </tr>
+    </table>
 
-
-	<h1>Is It Vegetarian?</h1>
-	<label for="barcode">Enter a UPC barcode number (12 digits)</label>
-	<input type="number" id="barcode">
-	<button type="button">Get Value</button>
-
-	<img src="" alt="" id="product-img">
-	<h2 id="product-name"></h2>
-
-	<table id="ingredient-table">
-		<tr>
-			<th>Ingredient</th>
-			<th>Vegetarian?</th>
-		</tr>
-	</table>
-
-	<script type="text/javascript" src="js/main.js"></script>
-</body>
-
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
 </html>

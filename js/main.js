@@ -26,7 +26,7 @@ function getFetch() {
       console.log(`error ${err}`);
     });
 }
-
+//ProductInfo object
 class ProductInfo {
   constructor(productData) {
     //This is passing in data.product
